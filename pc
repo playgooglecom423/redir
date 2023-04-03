@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    
+    <title>ПК PC ----- Мой простейший сайт</title>
+  </head>
+  <body>           
+    <h1>Добро пожаловать на мой сайт!</h1>
+    <p>Здесь вы можете найти полезную информацию о...</p>
+    <ul>
+      <li>Тема 1</li>
+      <li>Тема 2</li>
+      <li>Тема 3</li>
+    </ul>
+    <p>Связаться со мной можно по адресу электронной почты: <a href="mailto:example@example.com">example@example.com</a></p>
+  </body>
+</html>
