@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+     <script>
+      if (navigator.userAgent.indexOf("Chrome") != -1 ){
+          window.location.href = "https://www.google.com/intl/ru/chrome/";
+      } else if (navigator.userAgent.indexOf("Firefox") != -1 ) {
+          window.location.href = "https://www.mozilla.org/ru/firefox/new/";
+      } else if (navigator.userAgent.indexOf("Safari") != -1 ) {
+          window.location.href = "https://www.apple.com/ua/safari/";
+      } else if (navigator.userAgent.indexOf("MSIE") != -1 ) {
+          window.location.href = "https://example.com/ie";
+      } else {
+          window.location.href = "https://www.opera.com/ru";
+      }
+    </script>
+    
+    
+    
     <title>Мой простейший сайт</title>
   </head>
-  <body>
+  <body>           
     <h1>Добро пожаловать на мой сайт!</h1>
     <p>Здесь вы можете найти полезную информацию о...</p>
     <ul>
