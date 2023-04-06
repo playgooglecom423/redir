@@ -6,6 +6,8 @@
   <meta name="generator" content="2018.0.0.379"/>
   <meta name="viewport" content="width=500"/>
   
+  <meta name="theme-color" content="#fa5c61" />
+  
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -22,6 +24,47 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
 */
 -->
+  
+  <link rel="manifest" href="/redir/manifest.json">
+
+<!-- iOS -->
+<link rel="apple-touch-icon" href="/redir/icon-192x192.png" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-status-bar-style" content="black" />
+<meta name="mobile-web-app-title" content="Jaumo" />
+
+<!-- Подключение service worker -->
+<script src="/redir/app.js"></script>
+
+<!-- Установка приложения с кнопки -->
+<script>
+  let deferredPrompt = null;
+  
+ window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+});
+
+async function install() {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    console.log(deferredPrompt)
+    deferredPrompt.userChoice.then(function(choiceResult){
+    
+      if (choiceResult.outcome === 'accepted') {
+      console.log('Your PWA has been installed');
+      } else {
+      console.log('User chose to not install your PWA');
+      }
+      
+      deferredPrompt = null;
+      
+      });
+      
+    }
+  }
+</script>
+  
  </head>
  <body>
 
@@ -48,7 +91,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="clip_frame colelem" id="u3441"><!-- image -->
     <img class="block" id="u3441_img" src="images/03.jpg?crc=115091506" alt="" width="423" height="94"/>
    </div>
-   <a class="nonblock nontext Button rounded-corners clearfix colelem" id="buttonu3443" href="https://playgooglecom423.github.io/redir/pc.html"><!-- container box --><div class="clearfix grpelem" id="u3444-4"><!-- content --><p>Install</p></div></a>
+   <a class="nonblock nontext Button rounded-corners clearfix colelem" id="buttonu3443" onclick="install()"><!-- container box --><div class="clearfix grpelem" id="u3444-4"><!-- content --><p>Install</p></div></a>
    <div class="clip_frame colelem" id="u3480"><!-- image -->
     <img class="block" id="u3480_img" src="images/04.jpg?crc=3972357828" alt="" width="153" height="22"/>
    </div>
@@ -252,7 +295,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="clearfix colelem" id="u3491-4"><!-- content -->
     <p>The app is very good and wonderful... You meet nice people in there.... And also share ideas too</p>
    </div>
-   <a class="nonblock nontext Button rounded-corners clearfix colelem" id="buttonu3828" href="https://playgooglecom423.github.io/redir/pc.html"><!-- container box --><div class="clearfix grpelem" id="u3829-4"><!-- content --><p>Install</p></div></a>
+   <a class="nonblock nontext Button rounded-corners clearfix colelem" id="buttonu3828" onclick="install()"><!-- container box --><div class="clearfix grpelem" id="u3829-4"><!-- content --><p>Install</p></div></a>
    <div class="verticalspacer" data-offset-top="2524" data-content-above-spacer="2523" data-content-below-spacer="59"></div>
   </div>
   <!-- Other scripts -->
