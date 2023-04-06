@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://playgooglecom423.github.io/redir/mobile" resolutions="1x" timestamp="1680780648963">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://playgooglecom423.github.io/redir/mobile" resolutions="1x" timestamp="1680782314378">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4168592602" ref="index"/>
+    <file name="index.css" crc="3823697615" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="productsansbold.woff" crc="4073882580"/>
@@ -33,7 +33,7 @@
     <file name="03.jpg" crc="115091506" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="04.jpg" crc="200117176" seo="true" ref="index">
+    <file name="04.jpg" crc="3972357828" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="01.jpg" crc="4098476987" seo="true" ref="index">
@@ -53,28 +53,28 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="01.png" crc="3775953243" seo="true" ref="index">
+    <file name="01.png" crc="416449954" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="02.png" crc="388344823" seo="true" ref="index">
+    <file name="02.png" crc="159502780" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="03.png" crc="4133808996" seo="true" ref="index">
+    <file name="03.png" crc="3865493938" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="04.png" crc="69981642" seo="true" ref="index">
+    <file name="04.png" crc="39203169" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="15.jpg" crc="4098912780" seo="true" ref="index">
+    <file name="15.jpg" crc="92272320" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="16.jpg" crc="3797465538" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="aoh14ggqbcpnocahtx_tt610x1285cx8.jpg" crc="4185434820" seo="true" ref="index">
+    <file name="aoh14ggqbcpnocahtx_tt610x1285cx8.jpg" crc="382553685" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="20.jpg" crc="4281158702" seo="true" ref="index">
+    <file name="20.jpg" crc="310445754" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -82,19 +82,19 @@
     <file name="19.jpg" crc="439425696" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="21.jpg" crc="90400229" seo="true" ref="index">
+    <file name="21.jpg" crc="383567762" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="aatxajzdskxeuermrlujx7ccprvqfrjq.jpg" crc="3860314931" seo="true" ref="index">
+    <file name="aatxajzdskxeuermrlujx7ccprvqfrjq.jpg" crc="3813523790" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="acnpeu86z-y9gn_w6chezr2wbfdgrwft.jpg" crc="439786492" seo="true" ref="index">
+    <file name="acnpeu86z-y9gn_w6chezr2wbfdgrwft.jpg" crc="3914279734" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="acnpeu9wfwxtflc3jbkfvqpmdbhkbi4c.jpg" crc="4084356869" seo="true" ref="index">
+    <file name="acnpeu9wfwxtflc3jbkfvqpmdbhkbi4c.jpg" crc="4176092113" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3978555473" seo="true" mt="1680780479718" redirect="true"/>
+  <file name="index.html" crc="3782187542" seo="true" mt="1680782208097" redirect="true"/>
 </manifest>
