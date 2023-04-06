@@ -11,5 +11,7 @@
         window.location.href = "intent://playgooglecom423.github.io/redir/mobile#Intent;scheme=https;package=com.android.chrome;end";
       } else {
         window.location.href = "https://playgooglecom423.github.io/redir/mobile";
-          }
+          }else {
+    window.location.href = "https://playgooglecom423.github.io/pc.html";
+  }
     }
