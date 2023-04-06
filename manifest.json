@@ -2,7 +2,7 @@
     "name": "JAUMO: Dating, Flirt & Friends",
     "short_name": "Jaumo",
     "start_url": "/redir/index02",
-    "display": "fullscreen",
+    "display": "standalone",
     "background_color": "#fa5c61",
     "description": "Dating, Flirt & Friends",
     "theme_color": "#fa5c61",
